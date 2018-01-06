@@ -1,0 +1,28 @@
+Rosetinted
+- Scrubbable Timeline
+- Cellular Automata 
+
+Player has five or so resources, called Belief, to purchase Pawns.
+You have a limited number of "Eras" on each Board. An Era is 10 Board steps.
+Moving forward in the timeline, all the Pawns on the board act autonomously.
+
+Your goal is to create a society that yields certain balances of Belief, given the number of Eras, 
+
+Every cell has Health
+If the surrounding cells have matching Beliefs, its health increases. The opposite is true for incompatible Beliefs.
+Every cell has a Growth strategy.
+
+Going Forward
+=============
+Every Pawn has
+* Belief Bias - Determines how much damage the Pawn does and takes from contesting Beliefs &
+              - How much healing from compatible Beliefs
+* Health - How resilient the Pawn is against contesting Beliefs
+* Growth Strategy - How the cell duplicates itself
+
+
+Going Backward
+==============
+
+Contextualization
+K-Means Clustering with 5 Belief Axes?
